@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{   /*smooth scroll*/
+    scroll-behavior:smooth;
+}
+
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "./Estilos/Navbar.scss";
+@import "./Estilos/CarruselPrincipal.scss";
+@import "./Estilos/Fullwithtext.scss";
+@import "./Estilos/Slider.scss";
+@import "./Estilos/Acordion.scss";
+@import "./Estilos/Formulario.scss";
+@import "./Estilos/Footer.scss";
+@import './Mediaquerys/Mediaquery.scss';
+@import './Mediaquerys/MediaquerySmall.scss';
